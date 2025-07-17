@@ -30,6 +30,13 @@ rm -rf Pusher
 pusher setup
 ```
 
+You will be greeted by **Pusher Setup**
+
+The setup will be simple and quick:
+
+<img width="894" height="365" alt="Setup" src="https://github.com/user-attachments/assets/5866ac6c-ce52-4c76-9e62-d5d446ac603e" />
+
+
 # How to use?
 
 Type `pusher` for more information:
