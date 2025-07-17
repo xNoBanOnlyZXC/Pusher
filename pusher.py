@@ -227,7 +227,8 @@ def setup_pusher():
         except Exception as e:
             print(f"{B+red}Invalid Chat ID or unknown error ({e}), repeating{cl}")
             pass
-    
+
+    save_config()
     print(f"{B}{gr}All done. {cy}Now you can use Pusher to send and download files via the specified bot and the specified chat with:\n- {ye}pusher push some_file.txt{cy}\n- {ye}pusher pull 123\n\n{gr}{'#'*30}{cl}")
 
 def check():
