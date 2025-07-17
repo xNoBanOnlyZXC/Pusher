@@ -255,7 +255,7 @@ def check():
 if __name__ == "__main__":
     load_config()
 
-    parser = argparse.ArgumentParser(description="Pusher for file managevent with Telegram bot")
+    parser = argparse.ArgumentParser(prog='pusher', description="Pusher for file managevent with Telegram bot")
     subparsers = parser.add_subparsers(dest="command", help="Commands")
 
     # Push
